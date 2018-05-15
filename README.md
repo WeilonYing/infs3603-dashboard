@@ -22,8 +22,8 @@ filters:
 * Month customer was last contacted (LastContactMonthNum)
 * Call outcome (failure, other or success)
 
-## Success Rate
-The Success Rate tab displays the status of the company's KPI
+## High Level Metrics
+The High Level Metrics tab displays the status of the company's KPI
 at a glance. We have determined that our main KPI, or "North Star Metric" to be
 the percentage of customer contacts that result in a successful outcome
 (i.e. car insurance was able to be sold/renewed).
@@ -32,11 +32,13 @@ the percentage of customer contacts that result in a successful outcome
 * Success Outcome Amount by Month - Bar chart for showing the raw numbers of
   successful insurance sales, grouped by new sale (HasCarInsurance = No)
   and renewal (HasCarInsurance = Yes)
+* Number of calls per day grouped by Outcome - Charts how many calls are made each
+  day, and which of them were successful, fails and other.
 
 This tab an extra filter "HasCarInsurance" to filter success rate by renewal
 or new sale.
 
-![success rate tab](https://raw.githubusercontent.com/WeilonYing/infs3603-dashboard/master/screenshots/tab1-successrate.PNG)
+![high level metrics tab](https://raw.githubusercontent.com/WeilonYing/infs3603-dashboard/master/screenshots/tab1.png)
 
 ## Call Outcomes
 The Call Outcomes tab shows the number of calls and the proportion of outcomes
@@ -46,7 +48,7 @@ for each month.
 * Call Frequency each Month grouped by Month - Shows the raw number of calls made
   each month, grouped by outcome.
 
-![call outcomes tab](https://raw.githubusercontent.com/WeilonYing/infs3603-dashboard/master/screenshots/tab2-calloutcomes.PNG)
+![call outcomes tab](https://raw.githubusercontent.com/WeilonYing/infs3603-dashboard/master/screenshots/tab2.png)
 
 ## Sales Operations
 The Sales Operations shows customer calling statistics. It is used to track how
@@ -54,10 +56,8 @@ efficiency of a hypothetical sales team at making car insurance sales.
 * Average Call Duration over time grouped by Outcome - Pretty self explanatory.
   Shows the average call duration for each day, with one line for each possible
   outcome.
-* Number of calls per day grouped by Outcome - Shows how many calls were made each
-  day, with one line for each possible outcome.
 
-![sales operations](https://raw.githubusercontent.com/WeilonYing/infs3603-dashboard/master/screenshots/tab3-salesoperations.PNG)
+![sales operations tab](https://raw.githubusercontent.com/WeilonYing/infs3603-dashboard/master/screenshots/tab3.png)
 
 ## Customer Demographics
 The Customer Demographics tab functions as a quick overview of the nature and
@@ -70,4 +70,14 @@ strategies for future sales.
   already purchased an insurance policy with the company, and which policy/ies
   they have purchased.
 
-![customer demographics](https://raw.githubusercontent.com/WeilonYing/infs3603-dashboard/master/screenshots/tab4-customerdemographics.PNG)
+![customer demographics tab](https://raw.githubusercontent.com/WeilonYing/infs3603-dashboard/master/screenshots/tab4.png)
+
+## Outcome by Sale Time
+The Outcome by Sale Time tab calling outcomes by day of the week, and the time of
+the day to show when customers are most receptive to our sales.
+* Call Frequency by Day of Week grouped by outcome - Shows numbers of calls made
+  for each day of the week.
+* Call Frequency by Time of Day grouped by outcome - Shows numbers of calls made
+  for each hour of the day.
+
+![outcome by sale time tab](https://raw.githubusercontent.com/WeilonYing/infs3603-dashboard/master/screenshots/tab5.png)
