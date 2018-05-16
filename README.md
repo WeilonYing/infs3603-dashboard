@@ -6,6 +6,9 @@ Pls don't plagiarise.
 
 Report download link: [Download](https://github.com/WeilonYing/infs3603-dashboard/raw/master/printReport.pdf)
 
+### INFORMATION BELOW IS CURRENTLY OUTDATED. WILL UPDATE SOON.
+
+
 # User Guide
 ## Overview
 The dashboard/report is designed to give an operational and strategic overview of a
