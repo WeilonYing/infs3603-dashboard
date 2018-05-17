@@ -13,9 +13,9 @@ Report download link: [Download](https://github.com/WeilonYing/infs3603-dashboar
 ## Target Customer Success Rate
 ![Target Customer Success Rate](https://raw.githubusercontent.com/WeilonYing/infs3603-dashboard/master/screenshots/tab2.png)
 
-## Sale Team Performance
-![Sale Team Performance](https://raw.githubusercontent.com/WeilonYing/infs3603-dashboard/master/screenshots/tab3.png)
+## Sales Team Performance
+![Sales Team Performance](https://raw.githubusercontent.com/WeilonYing/infs3603-dashboard/master/screenshots/tab3.png)
 
-## Senior Management
-![Senior Management](https://raw.githubusercontent.com/WeilonYing/infs3603-dashboard/master/screenshots/tab4.png)
+## Executive Metrics
+![Executive Metrics](https://raw.githubusercontent.com/WeilonYing/infs3603-dashboard/master/screenshots/tab4.png)
 
